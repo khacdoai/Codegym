@@ -20,7 +20,7 @@ public class AlgorithmFindByBinary {
             for (int j = size-1; j >=0 ; j--) {
                 if(arrNum[j]<min){
                     min = arrNum[i];
-                }   
+                }
             }
             minStack.push(min);
         }
