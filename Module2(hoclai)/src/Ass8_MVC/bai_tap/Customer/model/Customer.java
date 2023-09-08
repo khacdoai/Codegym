@@ -57,4 +57,5 @@ public class Customer {
                 ", note='" + note + '\'' +
                 '}';
     }
+
 }

@@ -5,6 +5,7 @@ import Ass8_MVC.bai_tap.Customer.repository.ICustomerRepository;
 import Ass8_MVC.bai_tap.Customer.repository.impl.CustomerRepository;
 import Ass8_MVC.bai_tap.Customer.service.ICustomerService;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CustomerService implements ICustomerService {
@@ -12,10 +13,10 @@ public class CustomerService implements ICustomerService {
 
     @Override
     public void display() {
-        Customer[] customers = customerRepository.getListCustomer();
-        for (int i=0; i<customers.length;i++) {
-            if (customers[i] != null) {
-                System.out.println((i +1 ) + "." +customers[i]);
+        ArrayList customerArrayList = customerRepository.getListCustomer();
+        for (int i=0; i<customerArrayList.size();i++) {
+            if (customerArrayList.get(i) != null) {
+                System.out.println((i +1 ) + "." +customerArrayList.get(i));
             }
         }
 
