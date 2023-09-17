@@ -6,5 +6,7 @@ public interface IProductService {
     void suathongtinsanphamtheoid();
     void xoasanphamtheoid();
     void timkiemsanphamtheoten();
-    void sapxepsanpham();
+    void sapxepsanpham(int sapxep);
+
+
 }

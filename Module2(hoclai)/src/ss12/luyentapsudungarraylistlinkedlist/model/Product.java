@@ -1,6 +1,6 @@
 package ss12.luyentapsudungarraylistlinkedlist.model;
 
-public class Product {
+public class Product implements Comparable<Product> {
     private int id;
     private String tensanpham;
     private int gia;
@@ -56,5 +56,10 @@ public class Product {
                 ", gia=" + gia +
                 ", ghichu='" + ghichu + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Product o) {
+        return this.tensanpham.compareTo(o.getTensanpham());
     }
 }
