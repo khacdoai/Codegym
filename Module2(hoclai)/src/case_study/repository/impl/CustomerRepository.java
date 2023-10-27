@@ -1,5 +1,6 @@
 package case_study.repository.impl;
 import case_study.model.Customer;
+import case_study.repository.ICustomerRepository;
 import case_study.util.ReadAndWrite;
 import java.util.ArrayList;
 import java.util.List;

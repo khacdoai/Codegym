@@ -12,33 +12,33 @@ public class CustomerControler {
         boolean flag = true;
 
         do {
-            System.out.println("Chọn chức năng : ");
-            System.out.println("1. Hiển thị danh sách khách hàng" +
-                    "\n 2. Thêm khách hàng" +
-                    "\n 3. Chỉnh sửa thông tin khách hàng"+
-                    "\n 4. Xóa Khách hàng " +
-                    "\n 5. Tìm kiếm khách hàng theo tên"+
-                    "\n 6. Thoát");
+            System.out.println("Chon chuc nang : ");
+            System.out.println("1.Display list customers" +
+                    "\n 2. Add new customers" +
+                    "\n 3. Edit customers"+
+                    "\n 4. Delete customers " +
+                    "\n 5. Search customers by name "+
+                    "\n 6. Return main menu");
             int choose = Integer.parseInt(scanner.nextLine());
             switch (choose){
                 case 1:
-                    System.out.println("1. Hiển thị danh sách khách hàng");
+                    System.out.println("1. Display list customers");
                     customerService.display();
                     break;
                 case 2:
-                    System.out.println(" 2. Thêm khách hàng");
+                    System.out.println(" 2. Add new customers");
                     customerService.add();
                     break;
                 case 3:
-                    System.out.println("3. Chỉnh sửa thông tin khách hàng");
+                    System.out.println("3. Edit customers");
                     customerService.update();
                     break;
                 case 4:
-                    System.out.println("4. Xóa Khách hàng");
+                    System.out.println("4. Delete customers");
                     customerService.delete();
                     break;
                 case 5:
-                    System.out.println("5. Tìm kiếm khách hàng theo tên");
+                    System.out.println("5. Search customers by name");
                     customerService.search();
                     break;
                 case 6:

@@ -1,7 +1,7 @@
 package case_study.service.impl;
 
 import case_study.model.Customer;
-import case_study.repository.impl.ICustomerRepository;
+import case_study.repository.ICustomerRepository;
 import case_study.repository.impl.CustomerRepository;
 import case_study.service.ICustomerService;
 

@@ -1,21 +1,21 @@
 package case_study.model;
 
 public class Employee {
-   private int manhanvien;
+   private String manhanvien;
    private String hoten;
    private String ngaysinh;
    private String gioitinh;
-   private int CMND;
-   private int sdt;
+   private String CMND;
+   private String sdt;
    private String email;
    private String trinhdo;
    private String vitri;
-   private double luong;
+   private int luong;
 
    public Employee() {
    }
 
-   public Employee(int manhanvien, String hoten, String ngaysinh, String gioitinh, int CMND, int sdt, String email, String trinhdo, String vitri, double luong) {
+   public Employee(String manhanvien, String hoten, String ngaysinh, String gioitinh, String CMND, String sdt, String email, String trinhdo, String vitri, int luong) {
       this.manhanvien = manhanvien;
       this.hoten = hoten;
       this.ngaysinh = ngaysinh;
@@ -28,11 +28,11 @@ public class Employee {
       this.luong = luong;
    }
 
-   public int getManhanvien() {
+   public String getManhanvien() {
       return manhanvien;
    }
 
-   public void setManhanvien(int manhanvien) {
+   public void setManhanvien(String manhanvien) {
       this.manhanvien = manhanvien;
    }
 
@@ -60,19 +60,19 @@ public class Employee {
       this.gioitinh = gioitinh;
    }
 
-   public int getCMND() {
+   public String getCMND() {
       return CMND;
    }
 
-   public void setCMND(int CMND) {
+   public void setCMND(String CMND) {
       this.CMND = CMND;
    }
 
-   public int getSdt() {
+   public String getSdt() {
       return sdt;
    }
 
-   public void setSdt(int sdt) {
+   public void setSdt(String sdt) {
       this.sdt = sdt;
    }
 
@@ -100,11 +100,11 @@ public class Employee {
       this.vitri = vitri;
    }
 
-   public double getLuong() {
+   public int getLuong() {
       return luong;
    }
 
-   public void setLuong(double luong) {
+   public void setLuong(int luong) {
       this.luong = luong;
    }
 

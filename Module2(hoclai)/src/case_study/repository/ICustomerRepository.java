@@ -1,4 +1,4 @@
-package case_study.repository.impl;
+package case_study.repository;
 
 import case_study.model.Customer;
 import case_study.model.Employee;

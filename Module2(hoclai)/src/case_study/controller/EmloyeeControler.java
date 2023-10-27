@@ -14,31 +14,36 @@ public class EmloyeeControler {
         boolean flag = true;
 
         do {
-            System.out.println("Chọn chức năng : ");
-            System.out.println("1. Hiển thị danh sách nhân viên" +
-                    "\n 2. Thêm nhân viên" +
-                    "\n 3. Chỉnh sửa thông tin nhân viên"+
-                    "\n 4. Xóa Khách hàng " +
-                    "\n 5. Tìm kiếm khách hàng theo tên"+
-                    "\n 6. Thoát");
+            System.out.println("Chon chuc nang : ");
+            System.out.println("1. Display list employees" +
+                    "\n 2. Add new employee" +
+                    "\n 3. Edit employee"+
+                    "\n 4. Delete employee " +
+                    "\n 5. Search employee by name "+
+                    "\n 6. Return main menu");
             int choose = Integer.parseInt(scanner.nextLine());
             switch (choose){
                 case 1:
-                    System.out.println("1. Hiển thị danh sách khách hàng");
+                    System.out.println("1. Display list employees");
                     emloyeeService.EmloyeeDisplay();
                     break;
                 case 2:
-                    System.out.println(" 2. Thêm khách hàng");
+                    System.out.println(" 2. Add new employee");
+                    emloyeeService.EmloyeeAdd();
                     break;
                 case 3:
-                    System.out.println("3. Chỉnh sửa thông tin khách hàng");
+                    System.out.println("3. Edit employee");
+                    emloyeeService.EmloyeeUpdate();
                     break;
                 case 4:
-                    System.out.println("4. Xóa Khách hàng");
+                    System.out.println("4. Delete employee");
+                    emloyeeService.EmloyeeDelete();
                     break;
                 case 5:
-                    System.out.println("5. Tìm kiếm khách hàng theo tên");
+                    System.out.println("5. Search employee by name");
+                    emloyeeService.EmloyeeSearch();
                     break;
+
                 case 6:
                     flag = false;
             }
