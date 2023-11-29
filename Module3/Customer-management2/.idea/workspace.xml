@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28214cd7-ed0b-4bb1-9119-2afcc13a1d5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/customermanagement2/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/customermanagement2/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/customermanagement2/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/customermanagement2/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/customermanagement2/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/customermanagement2/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/com/example/customermanagement/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/com/example/customermanagement/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/com/example/customermanagement/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/com/example/customermanagement/repository/CustomerReppsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/com/example/customermanagement/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/com/example/customermanagement/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/com/example/customermanagement/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/customer-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/Controller/productServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/Model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/Service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/Service/productService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/repository/productRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/webapp/product/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/webapp/product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/webapp/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/webapp/product/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7/bai_tap/phat_trien_trang_wed_xem_hoat_hinh/trang_web_xem_hoat_hinh.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7/bai_tap/phat_trien_trang_wed_xem_hoat_hinh/trang_wed_xem_hoat_hinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7/bai_tap/tao_layout_voi_HTML5_CSS/tao_layout_voi_HTML5_CSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7/bai_tap/tao_layout_voi_HTML5_CSS/tao_layout_voi_HTML5_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7/bai_tap/tao_layout_voi_RWD/tao_layout_voi_RWD.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7/bai_tap/tao_layout_voi_RWD/tao_layout_voi_RWD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8/bai_tap/tao_gallery/tao_gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8/bai_tap/tao_gallery/tao_gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8/thuc_hanh/csss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8/thuc_hanh/su_dung_bootstrap_xay_dung_login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/java/com/example/testcustomer/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/java/com/example/testcustomer/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/java/com/example/testcustomer/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/java/com/example/testcustomer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/java/com/example/testcustomer/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/webapp/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/webapp/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/webapp/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/webapp/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/webapp/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/webapp/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-customer/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2Yl4eNc5wwrT9QBnLbZ1hoDH6gn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.211" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.211" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Customers" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.example : Customer-management2-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="1050c9a4-04dc-40e7-923a-be27cf79cd9e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="44742" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : Customer-management2-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28214cd7-ed0b-4bb1-9119-2afcc13a1d5c" name="Changes" comment="" />
+      <created>1701086931510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701086931510</updated>
+      <workItem from="1701086931934" duration="6976000" />
+      <workItem from="1701246348925" duration="8811000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
