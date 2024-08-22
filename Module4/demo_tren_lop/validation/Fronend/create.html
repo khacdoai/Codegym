@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="@{/create}" method="post">
+    Tên: <input type="text" id="name">
+<!--    <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>-->
+    Email: <input type="text" id="email">
+<!--    <p th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>-->
+    Lớp:
+    <select id="codeGymClass">
+        <option value="1">C07</option>
+        <option value="2">C07</option>
+        <option value="3">C07</option>
+    </select>
+    <input type="submit" value="Thêm mới" id="submit">
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#submit").click(() => {
+            add();
+        })
+    })
+    function add() {
+        let obj = {
+            name: document.getElementById("name"),
+            email: document.getElementById("email"),
+            codeGymClass: {
+                "id": parseInt(document.getElementById("codeGymClass").value),
+                // "name": document.getElementById("codeGymClass").options[document.getElementById("codeGymClass").selectedIndex].text
+            }
+        };
+        $.ajax({
+            url: `http://localhost:8080/api/create`,
+            method: "POST",
+            data: JSON.stringify(obj),
+            contentType: "application/JSON",
+            success: () => {
+                // window.location.replace ="/Fronend/ajax.html";
+            }
+        })
+
+    }
+
+</script>
+
+</body>
+</html>

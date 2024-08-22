@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // function abc(a, b, ...c) {
+    //     console.log(a)
+    //     console.log(b)
+    //     console.log(c) //array
+    // }
+    // abc(1,2,3,4,5,6)
+
+    // let arr1 = [1, 2, 3]
+    // let arr2 = [3, 4, 5]
+    // let arr3 = [...arr1, ...arr2] //gộp mảng
+    // let arr4 = [...arr1] //copy
+    // arr4[0] = 99
+    // console.log(arr1)
+    // console.log(arr2)
+    // console.log(arr3)
+
+    let person = {
+        name: "Hung",
+        address: "Da Nang"
+    }
+
+    let student = {
+        ...person,
+        point: 100
+    }
+
+    let engineer = {
+        ...person,
+        address: "USA",
+        salary: 1000
+    }
+
+    console.log(person)
+    console.log(engineer)
+</script>
+</body>
+</html>

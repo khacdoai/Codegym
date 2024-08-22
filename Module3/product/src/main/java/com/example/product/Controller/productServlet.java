@@ -31,6 +31,7 @@ public class productServlet extends HttpServlet {
                showDeleteProduct(request,response);
                 break;
             case "view":
+                viewProduct(request,response);
                 break;
             default:
                 listProduct(request,response);
@@ -66,6 +67,7 @@ public class productServlet extends HttpServlet {
         if(product == null){
             request.getRequestDispatcher("error-404.jsp");
         }else {
+            request.setAttribute("product",product);
             request.getRequestDispatcher("product/delete.jsp").forward(request,response);
         }
 
@@ -89,6 +91,7 @@ public class productServlet extends HttpServlet {
                 deleteProduct(request,response);
                 break;
             case "view":
+                viewProduct(request,response);
                 break;
             default:
                 listProduct(request,response);
@@ -154,7 +157,7 @@ public class productServlet extends HttpServlet {
         Product product = productService.findById(id);
         RequestDispatcher dispatcher = null;
         if(product == null){
-            request.getRequestDispatcher("error-404.jsp");
+            dispatcher = request.getRequestDispatcher("error-404.jsp");
         }else {
             productService.remote(id);
         }
@@ -163,6 +166,28 @@ public class productServlet extends HttpServlet {
         }catch (IOException e){
             e.printStackTrace();
         }
+        }
+        private void viewProduct(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+            int id = Integer.parseInt(request.getParameter("id"));
+            Product product = productService.findById(id);
+            RequestDispatcher dispatcher = null;
+            if(product == null){
+                request.getRequestDispatcher("error-404.jsp");
+            }else {
+                request.setAttribute("product", product);
+                request.getRequestDispatcher("product/view.jsp").forward(request,response);
+            }
+        }
+        private void searchProduct(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+            String name = request.getParameter("search");
+            Product product = productService.findByName(name);
+            RequestDispatcher dispatcher = null;
+            if (product == null) {
+                request.setAttribute("message", "Product not Found");
+            }else {
+                request.setAttribute("product", product);
+                request.getRequestDispatcher("product/view.jsp").forward(request,response);
+            }
         }
 }
 

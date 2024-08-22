@@ -22,30 +22,28 @@ public class EmloyeeControler {
                     "\n 5. Search employee by name "+
                     "\n 6. Return main menu");
             int choose = Integer.parseInt(scanner.nextLine());
-            switch (choose){
-                case 1:
+            switch (choose) {
+                case 1 -> {
                     System.out.println("1. Display list employees");
                     emloyeeService.EmloyeeDisplay();
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     System.out.println(" 2. Add new employee");
                     emloyeeService.EmloyeeAdd();
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     System.out.println("3. Edit employee");
                     emloyeeService.EmloyeeUpdate();
-                    break;
-                case 4:
+                }
+                case 4 -> {
                     System.out.println("4. Delete employee");
                     emloyeeService.EmloyeeDelete();
-                    break;
-                case 5:
+                }
+                case 5 -> {
                     System.out.println("5. Search employee by name");
                     emloyeeService.EmloyeeSearch();
-                    break;
-
-                case 6:
-                    flag = false;
+                }
+                case 6 -> flag = false;
             }
         }while (flag);
     }

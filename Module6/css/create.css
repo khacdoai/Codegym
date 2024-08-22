@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../css/Screenshot 2024-07-10 182926.png");
+    color: #dddddd;
+
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    /*background: white;*/
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #dddddd;
+}
+textarea{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+select{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #dddddd;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    /*color: #333;*/
+    color: #dddddd;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="radio"],
+.form-group input[type="date"],
+.form-group input[type="checkbox"],
+.form-group input[type="file"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+    width: auto;
+}
+
+.version-group {
+    display: flex;
+    align-items: center;
+}
+
+.version-group label {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.checkbox-group > div {
+    flex: 1 1 calc(25% - 10px);
+    display: flex;
+    align-items: center;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group span {
+    color: red;
+}
+
+button[type="submit"],
+button[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    background-color: #45a049;
+}
+
+#image-preview {
+    margin-top: 10px;
+}
+#remove{
+    background: #333333;
+}
+#remove{
+    background-color:#333333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#image-preview img {
+    max-width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap CRUD Data Table for Database with Modal Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./Style/Style.css">
+</head>
+<body>
+<div class="container">
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h2>Manage <b>Employees</b></h2>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Add New Employee</span></a>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Class</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="student,loop:${list}">
+                    <td th:text="${loop.count}"></td>
+                    <td th:text="${student.name}"></td>
+                    <td th:text="${student.email}"></td>
+                    <td th:text="${student.codeGymClass.name}"></td>
+                    <td>
+                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                        <a href="#deleteEmployeeModal" th:attr="onclick=|sendInf('${student.id}','${student.name}')|" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="clearfix">
+                <div class="hint-text" >Showing <b th:text="${list.number + 1}"></b> out of <b th:text="${list.totalPages}" ></b> entries</div>
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a th:href="@{/(page=${list.number - 1})}" th:if="${list.hasPrevious()}" class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item">
+                            <a th:each="i : ${#numbers.sequence(0, list.totalPages - 1)}"
+                               class="page-link" th:text="${i+1}"
+                               th:href="@{/(page=${i})}"
+                            ></a>
+                    </li>
+                    <li class="page-item">
+                        <a th:href="@{/(page=${list.number + 1})}" th:if="${list.hasNext()}" class="page-link">Next</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- add Modal HTML -->
+<div id="addEmployeeModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form th:action="@{/create}" method="post" th:object="${student}">
+                <div class="modal-header">
+                    <h4 class="modal-title">Add Employee</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" th:field="*{name}" pattern="^[A-Za-z ]*$" title="Vui lòng nhập tên đúng định dạng A-Za-z" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" th:field="*{email}" class="form-control" required>
+                        <p th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
+                    </div>
+                    <div class="form-group">
+                        <label>Lớp</label>
+                        <select th:field="*{codeGymClass}" class="form-control">
+                            <option th:each="cgc: ${listCodeGymClass}"
+                                    th:value="${cgc.id}"
+                                    th:text="${cgc.name}"
+                            ></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                    <input type="submit" class="btn btn-success" value="Add">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Edit Modal HTML -->
+<!--<div id="editEmployeeModal" class="modal fade">-->
+<!--    <div class="modal-dialog">-->
+<!--        <div class="modal-content">-->
+<!--            <form th:action="@{/update/{id}(id=${student.id})}" method="post" th:object="${student}">-->
+<!--                <input type="hidden" th:field="*{id}">-->
+<!--                <div class="modal-header">-->
+<!--                    <h4 class="modal-title">Edit Employee</h4>-->
+<!--                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    <div class="form-group">-->
+<!--                        <label>Name</label>-->
+<!--                        <input type="text" th:field="*{name}" class="form-control" required>-->
+<!--                        <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>-->
+<!--                    </div>-->
+<!--                    <div class="form-group">-->
+<!--                        <label>Email</label>-->
+<!--                        <input type="email" th:field="*{email}" class="form-control" required>-->
+<!--                        <p th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>-->
+<!--                    </div>-->
+<!--                    <div class="form-group">-->
+<!--                        <label>Class</label>-->
+<!--                        <select th:field="*{codeGymClass}">-->
+<!--                            <option th:each="cgc: ${listCodeGymClass}"-->
+<!--                                    th:value="${cgc.id}"-->
+<!--                                    th:text="${cgc.name}"-->
+<!--                                    th:selected="${cgc.id == student.codeGymClass.id}">-->
+<!--                            </option>-->
+<!--                        </select>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="modal-footer">-->
+<!--                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">-->
+<!--                    <input type="submit" class="btn btn-info" value="Save">-->
+<!--                </div>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- Delete Modal HTML -->
+<div id="deleteEmployeeModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form th:action="@{/delete}">
+                <div class="modal-header">
+                    <h4 class="modal-title">Delete</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Are you sure to remove
+                    <input type="text" hidden="hidden" name="id" id="idDel">
+                    <span id="nameDel" class="text-danger" th:text="${student.name}"> </span> ?
+                    <p class="text-warning"><small>This action cannot be undone.</small></p>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                    <input type="submit" class="btn btn-danger" value="Delete">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script >
+    function sendInf(id, name) {
+        document.getElementById("nameDel").innerText = name;
+        document.getElementById("idDel").value = id;
+    }
+</script>
+</body>
+</html>

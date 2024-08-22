@@ -1,0 +1,49 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Nguyen Van A",
+      "gender": 1,
+      "languages": [
+        "JAVA",
+        "C#"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Van B",
+      "gender": 0,
+      "languages": [
+        "JAVA"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nguyen Van C",
+      "gender": 0,
+      "languages": [
+        "JAVA"
+      ]
+    },
+    {
+      "name": "C07_ABC",
+      "age": 15,
+      "gender": "1",
+      "languages": [
+        "JAVA",
+        "C#"
+      ],
+      "id": 4
+    },
+    {
+      "name": "C07_ABCooo",
+      "age": 15,
+      "gender": "1",
+      "languages": [
+        "JAVA",
+        "C#"
+      ],
+      "id": 5
+    }
+  ]
+}

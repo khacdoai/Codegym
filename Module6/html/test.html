@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm mới phim</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/test.css">
+</head>
+<body class="text-white">
+<div class="container mx-auto p-4">
+    <div class="animate__animated animate__bounceInDown">
+        <h1 class="text-3xl font-bold mb-6 text-black-300">Thêm mới phim</h1>
+    </div>
+    <form id="movie-form" class="space-y-6">
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="movie-image" class="block font-semibold mb-1">Hình ảnh<span class="text-red-500">(*)</span></label>
+            <input type="file" id="movie-image" accept="image/*" class="block w-full p-2 border border-gray-700 rounded-md">
+            <div id="image-preview" class="mt-2 flex flex-wrap"></div>
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="movie-name" class="block font-semibold mb-1">Tên phim <span class="text-red-500">(*)</span></label>
+            <input type="text" id="movie-name" required class="block w-full p-2 border border-gray-700  rounded-md">
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="start-date" class="block font-semibold mb-1">Từ ngày <span class="text-red-500">(*)</span></label>
+            <input type="date" id="start-date" required class="block w-full p-2 border border-gray-700 rounded-md">
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="end-date" class="block font-semibold mb-1">Đến ngày <span class="text-red-500">(*)</span></label>
+            <input type="date" id="end-date" required class="block w-full p-2 border border-gray-700  rounded-md">
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="actors" class="block font-semibold mb-1">Diễn viên <span class="text-red-500">(*)</span></label>
+            <input type="text" id="actors" required class="block w-full p-2 border border-gray-700  rounded-md">
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="producer" class="block font-semibold mb-1">Hãng phim <span class="text-red-500">(*)</span></label>
+            <input type="text" id="producer" required class="block w-full p-2 border border-gray-700  rounded-md">
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="director" class="block font-semibold mb-1">Đạo diễn <span class="text-red-500">(*)</span></label>
+            <input type="text" id="director" required class="block w-full p-2 border border-gray-700  rounded-md">
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="duration" class="block font-semibold mb-1">Thời lượng (phút) <span class="text-red-500">(*)</span></label>
+            <input type="number" id="duration" required class="block w-full p-2 border border-gray-700  rounded-md">
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label class="block font-semibold mb-1">Phiên bản <span class="text-red-500">(*)</span></label>
+            <div class="flex items-center space-x-4">
+                <div>
+                    <input type="radio" id="2d" name="version" value="2d" required class="form-radio text-blue-600">
+                    <label for="2d" class="ml-2">2D</label>
+                </div>
+                <div>
+                    <input type="radio" id="3d" name="version" value="3d" required class="form-radio text-blue-600">
+                    <label for="3d" class="ml-2">3D</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="trailer" class="block font-semibold mb-1">Trailer<span class="text-red-500">(*)</span></label>
+            <input type="text" id="trailer" class="block w-full p-2 border border-gray-700  rounded-md">
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label class="block font-semibold mb-1">Thể loại <span class="text-red-500">(*)</span></label>
+            <div class="checkbox-group flex flex-wrap">
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="action" class="form-checkbox text-blue-600">
+                    <label for="action" class="ml-2">Hành Động</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="comedy" class="form-checkbox text-blue-600">
+                    <label for="comedy" class="ml-2">Hài hước</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="romance" class="form-checkbox text-blue-600">
+                    <label for="romance" class="ml-2">Lãng mạn</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="drama" class="form-checkbox text-blue-600">
+                    <label for="drama" class="ml-2">Tình cảm</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="fantasy" class="form-checkbox text-blue-600">
+                    <label for="fantasy" class="ml-2">Viễn tưởng</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="war" class="form-checkbox text-blue-600">
+                    <label for="war" class="ml-2">Chiến tranh</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="detective" class="form-checkbox text-blue-600">
+                    <label for="detective" class="ml-2">Kinh dị</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="adventure" class="form-checkbox text-blue-600">
+                    <label for="adventure" class="ml-2">Phiêu lưu</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="animation" class="form-checkbox text-blue-600">
+                    <label for="animation" class="ml-2">Hoạt hình</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="historical" class="form-checkbox text-blue-600">
+                    <label for="historical" class="ml-2">Kinh điển</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="musical" class="form-checkbox text-blue-600">
+                    <label for="musical" class="ml-2">Âm nhạc</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input type="checkbox" id="psychological" class="form-checkbox text-blue-600">
+                    <label for="psychological" class="ml-2">Tâm lý</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="screening-room" class="block font-semibold mb-1">Phòng chiếu<span class="text-red-500">(*)</span></label>
+            <select id="screening-room" class="block w-full p-2 border border-gray-700 rounded-md">
+                <option value="PC001">PC001</option>
+            </select>
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="screening-time" class="block font-semibold mb-1">Lịch chiếu<span class="text-red-500">(*)</span></label>
+            <input type="text" id="screening-time" class="block w-full p-2 border border-gray-700 rounded-md">
+            <button type="button" class="mt-2 py-2 px-4 bg-blue-600 text-white rounded-md">Thêm giờ chiếu</button>
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="content" class="block font-semibold mb-1">Nội dung</label>
+            <textarea id="content" class="block w-full p-2 border border-gray-700  rounded-md"></textarea>
+        </div>
+        <div class="form-group animate__animated animate__bounceInRight">
+            <label for="staff-id" class="block font-semibold mb-1">Mã NV <span class="text-red-500">(*)</span></label>
+            <input type="text" id="staff-id" required class="block w-full p-2 border border-gray-700  rounded-md">
+        </div>
+        <div class="animate__animated animate__bounceInRight flex space-x-4">
+            <button type="submit" id="save" class="py-2 px-4 bg-green-600 text-white rounded-md">Lưu</button>
+            <button type="button" id="remove" class="py-2 px-4 bg-red-600 text-white rounded-md">Quay lại</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    document.getElementById('movie-image').addEventListener('change', function(event) {
+        const imagePreview = document.getElementById('image-preview');
+        imagePreview.innerHTML = ''; // Clear previous images
+        const files = event.target.files;
+        for (const file of files) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                img.alt = file.name;
+                img.classList.add('h-20', 'mr-2', 'mb-2');
+                imagePreview.appendChild(img);
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.2/dist/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>

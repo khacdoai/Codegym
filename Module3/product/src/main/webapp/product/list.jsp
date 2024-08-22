@@ -16,6 +16,12 @@
 <p>
     <a href="/product?action=create">Create new product</a>
 </p>
+<table>
+    <tr>
+        <td><input type="text" name="search" id="search"></td>
+        <td><input type="submit" value="Search" ><a href="/product?action=search"></a></td>
+    </tr>
+</table>
 <table border="1">
     <tr>
         <td>Name</td>
@@ -25,7 +31,7 @@
     </tr>
     <c:forEach items='${requestScope["products"]}' var="product">
     <tr>
-        <td><a href="/product?actio=view&id=${product.getId()}">${product.getName()}</a></td>
+        <td><a href="/product?action=view&id=${product.getId()}">${product.getName()}</a></td>
         <td>${product.getPrice()}</td>
         <td>${product.getDescribe()}</td>
         <td>${product.getProducer()}</td>

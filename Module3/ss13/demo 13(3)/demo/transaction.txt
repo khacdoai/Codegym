@@ -1,0 +1,4 @@
+- Atomicity: Tất cả hoặc không có gì ( “all or nothing”)
+- Consistency: ở mọi thời điểm dữ liệu luôn luôn phải nhất quán, tức là tuân theo các ràng buộc đã được định nghĩa. Khi transaction được thực hiện, dữ liệu sau khi cập nhật cũng phải ở trạng thái nhất quán. Nếu transaction gây ra những vi phạm về ràng buộc dữ liệu, hệ thống sẽ không cho phép thực hiện tiếp và hủy bỏ toàn bộ transaction…
+- Isolation: mỗi transaction được đảm bảo thực hiện trong một ngữ cảnh riêng biệt của nó và không bị ảnh hưởng bởi các transaction khác. Khi hai transaction cùng cập nhật một dữ liệu, hệ quản trị CSDL đảm bảo chúng được thực hiện tuần tự không dẫm lên chân của nhau.
+- Durability: Khi transaction thực hiện xong (đã commit), những cập nhật trở nên cố định và dữ liệu sẽ luôn luôn là như vậy. Khi hệ thống gặp sự cố bất ngờ, trong quá trình khôi phục lại nó sẽ đảm bảo khôi phục lại dữ liệu cho những transaction đã được commit.

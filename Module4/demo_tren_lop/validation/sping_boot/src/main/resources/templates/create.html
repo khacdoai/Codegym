@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form th:action="@{/create}" method="post" th:object="${student}">
+    Tên: <input type="text" th:field="*{name}">
+    <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>
+    Email: <input type="text" th:field="*{email}">
+    <p th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
+    Lớp:
+    <select th:field="*{codeGymClass}">
+        <option th:each="cgc: ${listCodeGymClass}"
+                th:value="${cgc.id}"
+                th:text="${cgc.name}"
+        ></option>
+    </select>
+    <input type="submit" value="Thêm mới">
+</form>
+</body>
+</html>

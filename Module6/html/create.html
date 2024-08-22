@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm mới phim</title>
+    <link rel="stylesheet" href="../css/create.css">
+    <link rel="stylesheet" href="../css/animate.css">
+</head>
+<body>
+<div class="container">
+    <div class="wow bounceInDown">
+        <h1 style="color: #dddddd">Thêm mới phim</h1>
+    </div>
+    <form id="movie-form">
+        <div class="form-group wow bounceInRight">
+            <label for="movie-image">Hình ảnh<span>(*)</span></label>
+            <input type="file" id="movie-image" accept="image/*">
+            <div id="image-preview"></div>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="movie-name">Tên phim <span>(*)</span></label>
+            <input type="text" id="movie-name" required>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="start-date">Từ ngày <span>(*)</span></label>
+            <input type="date" id="start-date" required>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="end-date">Đến ngày <span>(*)</span></label>
+            <input type="date" id="end-date" required>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="actors">Diễn viên <span>(*)</span></label>
+            <input type="text" id="actors" required>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="producer">Hãng phim <span>(*)</span></label>
+            <input type="text" id="producer" required>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="director">Đạo diễn <span>(*)</span></label>
+            <input type="text" id="director" required>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="duration">Thời lượng (phút) <span>(*)</span></label>
+            <input type="number" id="duration" required>
+        </div>
+        <div class="form-group version-group wow bounceInRight">
+            <label>Phiên bản <span>(*)</span></label>
+            <input type="radio" id="2d" name="version" value="2d" required>
+            <label for="2d">2D</label>
+            <input type="radio" id="3d" name="version" value="3d" required>
+            <label for="3d">3D</label>
+        </div>
+        <div class="form-group">
+            <label for="trailer">Trailer<span>(*)</span></label>
+            <input type="text" id="trailer">
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label>Thể loại <span>(*)</span></label>
+            <div class="checkbox-group">
+                <div>
+                    <input type="checkbox" id="action">
+                    <label for="action">Hành Động</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="comedy">
+                    <label for="comedy">Hài hước</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="romance">
+                    <label for="romance">Lãng mạn</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="drama">
+                    <label for="drama">Tình cảm</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="fantasy">
+                    <label for="fantasy">Viễn tưởng</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="war">
+                    <label for="war">Chiến tranh</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="detective">
+                    <label for="detective">Kinh dị</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="adventure">
+                    <label for="adventure">Phiêu lưu</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="animation">
+                    <label for="animation">Hoạt hình</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="historical">
+                    <label for="historical">Kinh điển</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="musical">
+                    <label for="musical">Âm nhạc</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="psychological">
+                    <label for="psychological">Tâm lý</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="screening-room">Phòng chiếu<span>(*)</span></label>
+            <select id="screening-room">
+                <option value="PC001">PC001</option>
+            </select>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="screening-time">Lịch chiếu<span>(*)</span></label>
+            <input type="text" id="screening-time">
+            <button type="button">Thêm giờ chiếu</button>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="content">Nội dung</label>
+            <textarea id="content"></textarea>
+        </div>
+        <div class="form-group wow bounceInRight">
+            <label for="staff-id">Mã NV <span>(*)</span></label>
+            <input type="text" id="staff-id" required>
+        </div>
+        <div class="wow bounceInRight">
+            <button type="submit" id="save">Lưu</button>
+            <button type="button" id="remove">Quay lại</button>
+        </div>
+
+    </form>
+</div>
+
+<script>
+    document.getElementById('movie-image').addEventListener('change', function(event) {
+        const imagePreview = document.getElementById('image-preview');
+        imagePreview.innerHTML = ''; // Clear previous images
+        const files = event.target.files;
+        for (const file of files) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                img.alt = file.name;
+                imagePreview.appendChild(img);
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+</script>
+<script src="../css/wow.min.js">
+</script>
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>

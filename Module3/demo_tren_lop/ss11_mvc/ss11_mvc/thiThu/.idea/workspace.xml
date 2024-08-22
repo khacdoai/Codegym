@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08f55524-92ed-4aef-a061-fed566d22f15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../JavaWep/.idea/JavaWep.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/BaiTapLamThem/BaiTapLamThem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/case_study/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/case_study/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/case_study/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/case_study/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/case_study/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/case_study/case_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/case_study/out/production/case_study/case_study/case_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/ss8_mvc/out/production/ss8_mvc/ss8_mvc/ss8_mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/ss8_mvc/ss8_mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/thi_md2/thi_md2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/java/com/example/module3_accountname_wbe/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/java/com/example/module3_accountname_wbe/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/java/com/example/module3_accountname_wbe/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/java/com/example/module3_accountname_wbe/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/java/com/example/module3_accountname_wbe/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/java/com/example/module3_accountname_wbe/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/java/com/example/module3_accountname_wbe/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/java/com/example/module3_accountname_wbe/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/webapp/createCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/webapp/cssIndex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module3_AccountName_WBE/src/main/webapp/index2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/java/com/example/studyinformation/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/java/com/example/studyinformation/controller/studentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/java/com/example/studyinformation/controller/teacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/java/com/example/studyinformation/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/java/com/example/studyinformation/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/java/com/example/studyinformation/repository/impl/BaseRepisotory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/java/com/example/studyinformation/repository/impl/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/java/com/example/studyinformation/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/java/com/example/studyinformation/service/impl/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/webapp/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Study-information/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case study/.idea/case study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/controller/customerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/controller/employeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/controller/loginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/dto/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/dto/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/model/Accout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/model/BoPhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/model/LoaiKhach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/model/TrinhDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/model/ViTri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/DangNhapRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/IBoPhanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/IDangNhapRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/IEmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/ILoaiKhachRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/ITrinhDoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/IViTriRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/impl/BoPhanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/impl/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/impl/LoaiKhachRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/impl/TrinhDoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/impl/ViTriRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/repository/impl/customerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/DangNhapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/IBoPhanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/IDangNhapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/ILoaiKhachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/ITrinhDoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/IViTriService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/impl/BoPhanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/impl/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/impl/LoaiKhachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/impl/TrinhDoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/impl/ViTriService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/java/com/example/case_study/service/impl/customerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/bootstrap520/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/dangKi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/dangNhap.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.bootstrap5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.bootstrap5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.bulma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.bulma.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.bootstrap5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.bootstrap5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.bulma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.bulma.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/employee/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/employee/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../case_study/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/java/com/example/demo2/Controller/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/java/com/example/demo2/Model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/java/com/example/demo2/Repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/java/com/example/demo2/Repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/java/com/example/demo2/Repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/java/com/example/demo2/Service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/java/com/example/demo2/Service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/webapp/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo2/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo3/demo3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/java/com/example/demo4/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/java/com/example/demo4/controler/EmployeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/java/com/example/demo4/controler/loger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/java/com/example/demo4/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/java/com/example/demo4/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/java/com/example/demo4/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/java/com/example/demo4/repository/IEmloyeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/java/com/example/demo4/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/java/com/example/demo4/service/IEmloyeeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo4/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c0723G1_jv105/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c0723G1_jv105/.idea/c0723G1_jv105.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c0723G1_jv105/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c0723G1_jv105/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c0723G1_jv105/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c0723G1_jv105/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo-paging-sorting-jsp-servlet-5-phan_trang/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo_boostrap_c07/.idea/demo_boostrap_c07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo_callableStatement/.idea/demo_callableStatement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo_jdbc_c0723/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo_jdbc_c0723/.idea/demo_jdbc_c0723.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo_jdbc_c0723/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo_jdbc_c0723/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo_jdbc_c0723/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11_mvc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11_mvc/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11_mvc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11_mvc/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11_mvc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../examination/.idea/examination.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ketThucModule3/src/main/java/com/example/ketthucmodule3/controller/productServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ketThucModule3/src/main/java/com/example/ketthucmodule3/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ketThucModule3/src/main/java/com/example/ketthucmodule3/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ketThucModule3/src/main/java/com/example/ketthucmodule3/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ketThucModule3/src/main/java/com/example/ketthucmodule3/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ketThucModule3/src/main/java/com/example/ketthucmodule3/service/IProducyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ketThucModule3/src/main/java/com/example/ketthucmodule3/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ketThucModule3/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ketThucModule3/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss12/demo (2)/.idea/demo (2).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss12/demo (2)/demo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss12/demo (2)/demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss13/demo 12(2)/demo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss13/demo 12(2)/demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss13/demo 12(2)/demo/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss13/demo 12(2)/demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss13/demo 12(2)/demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss13/demo 13(3)/.idea/demo 13(3).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss13/demo 13(3)/demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss7/bai_tap/tao_layout_voi_HTML5_CSS/.idea/tao_layout_voi_HTML5_CSS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss7/bai_tap/tao_layout_voi_RWD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss7/bai_tap/tao_layout_voi_RWD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss7/bai_tap/tao_layout_voi_RWD/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss7/bai_tap/tao_layout_voi_RWD/.idea/tao_layout_voi_RWD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss7/bai_tap/tao_layout_voi_RWD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../thiThu/.idea/thiThu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../untitled1/src/hello2024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/java/com/example/usermanagement/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/java/com/example/usermanagement/controller/userServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/java/com/example/usermanagement/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/java/com/example/usermanagement/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/java/com/example/usermanagement/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/java/com/example/usermanagement/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/java/com/example/usermanagement/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/java/com/example/usermanagement/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/webapp/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/webapp/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../user-management/src/main/webapp/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Module1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Module1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/case_study/controller/EmloyeeControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Module2(hoclai)/src/case_study/controller/EmloyeeControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Customer-management2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Customer-management2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Customer-management2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Customer-management2/build/libs/Customer-management2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Customer-management2/build/libs/Customer-management2-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Customer-management2/src/main/webapp/customer/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Customer-management2/src/main/webapp/customer/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case study/cau_lenh_truy_van.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case study/cau_lenh_truy_van.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case study/tao_csdl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case study/tao_csdl.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../customer-management/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../customer-management/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../customer-management/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../customer-management/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../customer-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../customer-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/build/classes/java/main/com/example/product/Controller/productServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/build/classes/java/main/com/example/product/Controller/productServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/build/libs/product-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/build/libs/product-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/src/main/java/com/example/product/Controller/productServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/src/main/java/com/example/product/Controller/productServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/src/main/webapp/product/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/src/main/webapp/product/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/src/main/webapp/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/src/main/webapp/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../product/src/main/webapp/product/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../product/src/main/webapp/product/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/WEB-INF/classes/com/example/product/Controller/productServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/WEB-INF/classes/com/example/product/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/WEB-INF/classes/com/example/product/Model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/WEB-INF/classes/com/example/product/Service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/WEB-INF/classes/com/example/product/Service/productService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/WEB-INF/classes/com/example/product/repository/IProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/WEB-INF/classes/com/example/product/repository/productRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/product/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/product/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/product/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/product/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.21/apache-tomcat-9.0.21/webapps/ROOT/product/view.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="jsf" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2dMVuyTOg9S9tdPgEWuQdptQDQo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../thiThu" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.thithu.repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.211" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.211" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : com.example : thiThu-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="478e1625-b708-4379-a69e-ce69dc27be83" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39450" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : thiThu-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08f55524-92ed-4aef-a061-fed566d22f15" name="Changes" comment="" />
+      <created>1709818162717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709818162717</updated>
+      <workItem from="1709818164023" duration="20295000" />
+      <workItem from="1709862097482" duration="457000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/thithu/controller/productServlet.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/thithu/controller/productServlet.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

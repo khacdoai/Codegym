@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    margin: 0;
+}
+h3{
+    text-align: center;
+}
+.header{
+    border: 1px solid;
+    height: 100px;
+    background: cornsilk;
+}
+.header__navbar{
+    list-style: none;
+    text-align: right;
+    /*căn giữa*/
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header__navbar-item{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+.header__search{
+    list-style: none;
+}
+.search_list{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.search{
+    display: inline-block;
+}
+.head{
+    height: 40px;
+    background: lightblue;
+
+}
+.head__item{
+    display: inline-block;
+    margin: 10px 60px;
+
+}
+.item{
+    display: inline-block;
+    margin: 0 5px   ;
+}
+.item-search{
+    display: inline-block;
+    text-align: left;
+}
+.container1{
+    height: 900px;
+    background: lightblue;
+}
+.container__left{
+    height: 100%;
+    width: 15%;
+    background: burlywood;
+    float: left;
+}
+.container__right{
+    padding: 0;
+    height: 100%;
+    width: 85%;
+    background: white;
+    float: right;
+}
+.footer{
+    height: 10px        ;
+    background: darkorchid;
+}
+p{margin: 0 auto}
+table{
+    border: 1px solid;
+}

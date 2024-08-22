@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head">
+
+</head>
+<body>
+
+
+<h3>Blog</h3>
+<div class="container">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <form class="d-flex" action="list" >
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="key_search" >
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</div>
+
+<form action="blog">
+    <select name="cateId" onchange="this.form.submit()">
+        <option disabled selected>Choose Category</option>
+        <th:block th:each="category: ${categoryList}">
+            <option th:value="${category.id}" th:text="${category.name}"></option>
+        </th:block>
+
+    </select>
+</form>
+
+<p>
+    <a th:href="@{/createShow}">
+        Add new Blog
+    </a>
+</p>
+
+
+
+<div class="notify">
+    <div th:if="${message}">
+        <span th:text="${message}"></span>
+    </div>
+</div>
+
+<table id = "layout">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Category Name</th>
+
+        <th>Edit</th>
+        <th>Delete</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="row : ${blogList}">
+        <td th:text="${row.id}"></td>
+        <td th:text="${row.name}"></td>
+        <td th:text="${row.type}"></td>
+        <td th:text="${row.category.name}"></td>
+        <td><a th:href="@{/{id}/editShow(id=${row.id})}">Edit</a></td>
+        <td><a th:href="@{/{id}/delete(id=${row.id})}">Delete</a></td>
+
+    </tr>
+    </tbody>
+</table>
+
+
+<footer th:replace="/layout :: footer"></footer>
+<!--<div>-->
+<!--    <a th:href="@{'/blog'(page=${blogList.number - 1}, key_search=${key_search}, cateId=${cateId})}"-->
+<!--       th:if="${blogList.hasPrevious()}">Previous</a>-->
+<!--    <span th:text="${blogList.number + 1}"></span> / <span th:text="${blogList.totalPages}"></span>-->
+<!--    <a th:href="@{'/blog'(page=${blogList.number + 1}, key_search=${key_search}, cateId=${cateId})}"-->
+<!--       th:if="${blogList.hasNext()}">Next</a>-->
+<!--</div>-->
+
+<div>
+    <a th:href="@{'/blog'(page=${blogList.number - 1}, key_search=${key_search}, cateId=${cateId})}"
+       th:if="${blogList.hasPrevious()}">Trước</a>
+    <span th:text="${blogList.number + 1}"></span> / <span th:text="${blogList.totalPages}"></span>
+    <a th:href="@{'/blog'(page=${blogList.number + 1}, key_search=${key_search}, cateId=${cateId})}"
+       th:if="${blogList.hasNext()}">Tiếp theo</a>
+</div>
+</body>
+</html>
